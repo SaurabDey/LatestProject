@@ -30,6 +30,7 @@ public class Grid {
 		driver.get("https://www.facebook.com/login/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		System.out.println("This is git practse session");
 	}
 
 	@Test
@@ -47,6 +48,7 @@ public class Grid {
 	@AfterTest
 	public void afterTest() {
 		driver.quit();
+		System.out.println("This is git practse session");
 	}
 
 }
