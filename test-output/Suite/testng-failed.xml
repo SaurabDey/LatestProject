@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <test name="Test1">
+    <classes>
+      <class name="com.test.LatestProject.Grid"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="com.test.LatestProject.Grid"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test3">
+    <classes>
+      <class name="com.test.LatestProject.Grid"/>
+    </classes>
+  </test> <!-- Test3 -->
+  <test name="Test4">
+    <classes>
+      <class name="com.test.LatestProject.Grid"/>
+    </classes>
+  </test> <!-- Test4 -->
+</suite> <!-- Failed suite [Suite] -->
