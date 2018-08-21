@@ -41,6 +41,8 @@ public class Grid {
 		pass.sendKeys("pasw123");
 		WebElement login=driver.findElement(By.id("loginbutton"));
 		login.click();
+		
+		System.out.println("This is git practse session");
 	}
 	@AfterTest
 	public void afterTest() {
