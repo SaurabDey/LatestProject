@@ -7,6 +7,10 @@ public class SaurabClass {
 		System.out.println("Test Autpmation");
 	
 		Thread.sleep(6000);
+		
+		Thread.sleep(6000);
+		
+		Thread.sleep(6000);
 	}
 
 }
